@@ -36,6 +36,7 @@ git clone https://github.com/RyodoTanaka/Arduino/
  ```
  make monitor
  ```
+ 
 尚、シリアル通信には```screen```コマンドが必要です。  
 まだインストールしていない場合は、
 ```
