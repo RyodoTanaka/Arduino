@@ -36,3 +36,11 @@ git clone https://github.com/RyodoTanaka/Arduino/
  ```
  make monitor
  ```
+尚、シリアル通信には```screen```コマンドが必要です。  
+まだインストールしていない場合は、
+```
+sudo apt-get install screen -y
+```
+でインストールしましょう。  
+基本的に、```make monitor```すると、シリアル通信が始まります。  
+終了したいときには、```Ctrl+a k```で終了するかどうか聞かれるので、```y```を入力後、```<RET>```で終了します。
